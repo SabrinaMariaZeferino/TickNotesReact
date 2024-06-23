@@ -59,7 +59,7 @@ const App: React.FunctionComponent = () => {
         title: text,
       });
       setText('');
-      setLists([...lists, response.data]);
+      setLists([response.data, ...lists]);
 
 
     } catch (error) {
