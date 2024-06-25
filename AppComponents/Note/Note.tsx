@@ -64,7 +64,7 @@ const Note = ({ list, handleDeleteList }: NoteProps) => {
             <Icon
               name="delete"
               type="material"
-              color="white"
+              color="grey"
               size={17}
               style={{ marginTop: 7 }}
             />
